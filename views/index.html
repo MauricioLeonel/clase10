@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form action="/api/productos" method="POST">
+		<input type="text" name="title" placeholder="titulo">
+		<input type="number" name="price" placeholder="precio">
+		<input type="thumbnail" name="thumbnail" placeholder="foto">
+		<input type="submit" value="Registar">
+	</form>
+	<a href="/api/productos/handlebars">ir a productos con Handlebars</a>
+	<a href="/api/productos/pug">ir a productos con Pug</a>
+	<a href="/api/productos/ejs">ir a productos con EJS</a>
+</body>
+</html>
